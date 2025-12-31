@@ -26,6 +26,53 @@
   --primary_300: #ffb685;
   --primary_200: #ffcead;
   --primary_100: #ffe7d6;
-  --primary_100: #ffe7d6;
   --primary_50: #fff3eb;
+
+  /*======= secondary color ======== */
+  --secondary_900: #092131;
+  --secondary_800: #124261;
+  --secondary_700: #1b6392;
+  --secondary_600: #2484c2;
+  --secondary_500: #2da5f3;
+  --secondary_400: #57b7f5;
+  --secondary_300: #81c9f8;
+  --secondary_200: #abdbfa;
+  --secondary_100: #d5edfd;
+  --secondary_50: #eaf6fe;
+
+  /*======= succes color ======== */
+  --succes_900: #092407;
+  --succes_800: #12470e;
+  --succes_700: #1b6b16;
+  --succes_600: #248e1d;
+  --succes_500: #2db224;
+  --succes_400: #57c150;
+  --succes_300: #81d17c;
+  --succes_200: #abe0a7;
+  --succes_100: #d5f0d3;
+  --succes_50: #eaf7e9;
+
+  /*======= warning color ======== */
+  --warning_900: #2f2802;
+  --warning_800: #5e5005;
+  --warning_700: #8d7807;
+  --warning_600: #bca00a;
+  --warning_500: #ebc80c;
+  --warning_400: #efd33d;
+  --warning_300: #f3de6d;
+  --warning_200: #f7e99e;
+  --warning_100: #fbf4ce;
+  --warning_50: #fdfae7;
+
+  /*======= danger color ======== */
+  --danger_900: #301212;
+  --danger_800: #5f2323;
+  --danger_700: #8f3535;
+  --danger_600: #be4646;
+  --danger_500: #ee5858;
+  --danger_400: #f17979;
+  --danger_300: #f59b9b;
+  --danger_200: #f8bcbc;
+  --danger_100: #fcdede;
+  --danger_50: #fdeeee;
 }
