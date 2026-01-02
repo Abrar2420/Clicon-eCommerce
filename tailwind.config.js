@@ -2,6 +2,9 @@
 export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      public_sans: "var(--public_sans)",
+    },
     extend: {
       colors: {
         // ======== grey color ========

@@ -1,4 +1,6 @@
-*, ::before, ::after {
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -52,7 +54,7 @@
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,6 +556,52 @@ video {
   display: none;
 }
 
+.container{
+  width: 100%;
+}
+
+@media (min-width: 640px){
+  .container{
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px){
+  .container{
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px){
+  .container{
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px){
+  .container{
+    max-width: 1536px;
+  }
+}
+
+.bg-warning_500{
+  background-color: var(--warning_500);
+}
+
+.p-7{
+  padding: 1.75rem;
+}
+
+.font-public_sans{
+  font-family: var(--public_sans);
+}
+
 :root {
   /*======= grey color ======== */
   --grey_900: #191c1f;
@@ -622,4 +670,6 @@ video {
   --danger_200: #f8bcbc;
   --danger_100: #fcdede;
   --danger_50: #fdeeee;
+  /* ============ font family =============== */
+  --public_sans: "Public Sans", sans-serif;
 }
