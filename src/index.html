@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./output.css" />
     <title>Document</title>
+
+    <script>
+      fetch("./fontAwesomeLInks.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.head.insertAdjacentHTML("beforeend", data);
+        })
+        .catch((err) =>
+          console.error("Failed to load Font Awesome links:", err)
+        );
+    </script>
   </head>
-  <body></body>
+  <body>
+    <!-- header containing banner, nav-top, nav-middle, nav-bottem -->
+    <header>
+      <div class="bg-slate-900 w-full flex">
+        <!-- ======== banner part ======= -->
+        <div class="container bg-slate-600"></div>
+        <!-- cut banner part -->
+        <div
+          id="remove-banner"
+          class="justify-self-end self-center p-2 bg-grey_800 rounded-sm me-6 cursor-pointer"
+        >
+          <span class="text-grey_00"
+            ><i class="fa-whiteboard fa-semibold fa-xmark"></i
+          ></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- custom js home.js  -->
+    <script type="module" src="./js/home.js"></script>
+  </body>
 </html>

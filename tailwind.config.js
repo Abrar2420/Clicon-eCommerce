@@ -2,6 +2,13 @@
 export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    container: {
+      center: true,
+      padding: "1rem",
+      screens: {
+        xl: "1320px",
+      },
+    },
     fontFamily: {
       public_sans: "var(--public_sans)",
     },
