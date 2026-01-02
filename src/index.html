@@ -20,10 +20,27 @@
   <body>
     <!-- header containing banner, nav-top, nav-middle, nav-bottem -->
     <header>
-      <div class="bg-slate-900 w-full flex">
-        <!-- ======== banner part ======= -->
-        <div class="container bg-slate-600"></div>
-        <!-- cut banner part -->
+      <!-- ======== banner part ======= -->
+      <div id="banner" class="bg-slate-900 w-full flex">
+        <div class="container bg-slate-600">
+          <div class="flex items-center justify-between">
+            <!-- banner logo -->
+            <picture>
+              <img src="./images/home/banner_logo.png" alt="" />
+            </picture>
+            <!-- banner offer text  -->
+            <div>
+              <span>Up to</span>
+              <span>59%</span>
+              <span>O FF</span>
+            </div>
+            <!-- banner shop now button  -->
+            <div>
+              <button>SHOP NOW</button>
+            </div>
+          </div>
+        </div>
+        <!-- remove banner part -->
         <div
           id="remove-banner"
           class="justify-self-end self-center p-2 bg-grey_800 rounded-sm me-6 cursor-pointer"
