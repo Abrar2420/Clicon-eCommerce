@@ -58,11 +58,9 @@
       <!-- ======== navbar part ======= -->
       <nav>
         <!-- navbar top secton -->
-        <div class="flex w-full bg-secondary_700">
+        <div class="flex w-full bg-secondary_700 border-b border-gray-300">
           <div class="container">
-            <div
-              class="flex items-center justify-between py-4 border-b border-gray-200"
-            >
+            <div class="flex items-center justify-between py-4">
               <!-- navabr top left section  -->
               <div>
                 <p class="body_samll_400 text-grey_00">
@@ -89,6 +87,45 @@
                 ></span>
                 <span class="cursor-pointer hover:text-grey_100"
                   ><i class="fa-brands fa-instagram"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- navbar middle section  -->
+        <div class="flex w-full bg-secondary_700">
+          <div class="container">
+            <div class="flex items-center justify-between py-5">
+              <!-- navbar middle left section (logo) -->
+              <div class="flex items-center gap-2">
+                <picture>
+                  <img src="./images/home/logo.png" alt="" />
+                </picture>
+                <h2 class="heading_01 font-bold text-grey_00">CLICON</h2>
+              </div>
+              <!-- navbar middle section center (search input) -->
+              <div class="flex items-center w-6/12 relative">
+                <input
+                  class="py-3.5 px-4 w-full rounded-sm outline-none placeholder-grey_500 body_small_400"
+                  type="search"
+                  placeholder="Search for anyting..."
+                />
+                <span
+                  class="absolute top-2/4 transform -translate-y-2/4 right-4 text-[1.5rem] text-grey_900 cursor-pointer"
+                >
+                  <i class="fa-utility fa-semibold fa-magnifying-glass"></i
+                ></span>
+              </div>
+              <!-- navbar middle section right (cart) -->
+              <div class="flex items-center gap-x-6">
+                <span class="text-[2rem] text-grey_00"
+                  ><i class="fa-whiteboard fa-semibold fa-cart-shopping"></i
+                ></span>
+                <span class="text-[2rem] text-grey_00"
+                  ><i class="fa-utility fa-semibold fa-heart"></i
+                ></span>
+                <span class="text-[2rem] text-grey_00"
+                  ><i class="fa-whiteboard fa-semibold fa-user"></i
                 ></span>
               </div>
             </div>
