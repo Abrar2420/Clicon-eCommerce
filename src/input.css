@@ -80,3 +80,122 @@
   /* ============ font family =============== */
   --public_sans: "Public Sans", sans-serif;
 }
+
+@layer components {
+  /* =========== display texts =========== */
+  .display_01 {
+    @apply font-public_sans text-[4rem] font-semibold leading-[4.5rem];
+  }
+  .display_02 {
+    @apply font-public_sans text-[3.5rem] font-semibold leading-[4rem];
+  }
+  .display_03 {
+    @apply font-public_sans text-[3rem] font-semibold leading-[3.5rem];
+  }
+  .display_04 {
+    @apply font-public_sans text-[2.5rem] font-semibold leading-[3rem];
+  }
+  .display_05 {
+    @apply font-public_sans text-[2.25rem] font-semibold leading-[2.75rem];
+  }
+
+  /* =========== heading texts =========== */
+  .heading_01 {
+    @apply font-public_sans text-[2rem] font-semibold leading-[2.5rem];
+  }
+  .heading_02 {
+    @apply font-public_sans text-[1.75rem] font-semibold leading-[2rem];
+  }
+  .heading_03 {
+    @apply font-public_sans text-[1.5rem] font-semibold leading-[2rem];
+  }
+  .heading_06 {
+    @apply font-public_sans text-[1rem] font-bold leading-[3.5rem] tracking-[0.012em];
+  }
+  .heading_07 {
+    @apply font-public_sans text-[0.875rem] font-bold leading-[3rem] tracking-[0.012em];
+  }
+
+  /* =========== label texts =========== */
+  .label_01 {
+    @apply font-public_sans text-[1.125rem] font-medium leading-[1.75rem];
+  }
+  .label_02 {
+    @apply font-public_sans text-[1rem] font-medium leading-[1.5rem];
+  }
+  .label_03 {
+    @apply font-public_sans text-[0.875rem] font-medium leading-[1.25rem];
+  }
+  .label_04 {
+    @apply font-public_sans text-[0.75rem] font-medium leading-[1.25rem];
+  }
+  .label_05 {
+    @apply font-public_sans text-[0.6875rem] font-medium leading-[1rem];
+  }
+
+  /* =========== body texts =========== */
+  /* XXL */
+  .body_xxl_400 {
+    @apply font-public_sans text-[1.5rem] font-normal leading-[2rem];
+  }
+  /*  XL */
+  .body_xl_400 {
+    @apply font-public_sans text-[1.25rem] font-normal leading-[1.75rem];
+  }
+  .body_xl_500 {
+    @apply font-public_sans text-[1.25rem] font-medium leading-[1.75rem];
+  }
+  .body_xl_600 {
+    @apply font-public_sans text-[1.25rem] font-semibold leading-[1.75rem];
+  }
+  /*  Large */
+  .body_large_400 {
+    @apply font-public_sans text-[1.125rem] font-normal leading-[1.5rem];
+  }
+  .body_large_500 {
+    @apply font-public_sans text-[1.125rem] font-medium leading-[1.5rem];
+  }
+  .body_large_600 {
+    @apply font-public_sans text-[1.125rem] font-semibold leading-[1.5rem];
+  }
+  /*  medium */
+  .body_medium_400 {
+    @apply font-public_sans text-[1rem] font-normal leading-[1.5rem];
+  }
+  .body_medium_500 {
+    @apply font-public_sans text-[1rem] font-medium leading-[1.5rem];
+  }
+  .body_medium_600 {
+    @apply font-public_sans text-[1rem] font-semibold leading-[1.5rem];
+  }
+  /*  small */
+  .body_small_400 {
+    @apply font-public_sans text-[0.875rem] font-normal leading-[1.25rem];
+  }
+  .body_small_500 {
+    @apply font-public_sans text-[0.875rem] font-medium leading-[1.25rem];
+  }
+  .body_small_600 {
+    @apply font-public_sans text-[0.875rem] font-semibold leading-[1.25rem];
+  }
+  /*  tiny */
+  .body_tiny_400 {
+    @apply font-public_sans text-[0.75rem] font-normal leading-[1rem];
+  }
+  .body_tiny_500 {
+    @apply font-public_sans text-[0.75rem] font-medium leading-[1rem];
+  }
+  .body_tiny_600 {
+    @apply font-public_sans text-[0.75rem] font-semibold leading-[1rem];
+  }
+  /*  XS */
+  .body_xs_400 {
+    @apply font-public_sans text-[0.6875rem] font-normal leading-[0.75rem];
+  }
+  .body_xs_500 {
+    @apply font-public_sans text-[0.6875rem] font-medium leading-[0.75rem];
+  }
+  .body_xs_600 {
+    @apply font-public_sans text-[0.6875rem] font-semibold leading-[0.75rem];
+  }
+}

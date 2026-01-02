@@ -590,6 +590,35 @@ video {
   }
 }
 
+/* =========== display texts =========== */
+
+.display_01{
+  font-family: var(--public_sans);
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 4.5rem;
+}
+
+/* =========== heading texts =========== */
+
+/* =========== label texts =========== */
+
+/* =========== body texts =========== */
+
+/* XXL */
+
+/*  XL */
+
+/*  Large */
+
+/*  medium */
+
+/*  small */
+
+/*  tiny */
+
+/*  XS */
+
 .bg-warning_500{
   background-color: var(--warning_500);
 }
@@ -600,6 +629,14 @@ video {
 
 .font-public_sans{
   font-family: var(--public_sans);
+}
+
+.text-warning_700{
+  color: var(--warning_700);
+}
+
+.text-warning_50{
+  color: var(--warning_50);
 }
 
 :root {
