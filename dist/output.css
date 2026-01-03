@@ -893,6 +893,10 @@ video {
   border-color: var(--warning_500);
 }
 
+.border-grey_400{
+  border-color: var(--grey_400);
+}
+
 .bg-grey_800{
   background-color: var(--grey_800);
 }
@@ -928,6 +932,10 @@ video {
 
 .p-2{
   padding: 0.5rem;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .px-4{
@@ -983,6 +991,11 @@ video {
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .pe-7{
@@ -1153,6 +1166,10 @@ video {
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.25rem;
+}
+
+.hover\:border:hover{
+  border-width: 1px;
 }
 
 .hover\:bg-grey_50:hover{
