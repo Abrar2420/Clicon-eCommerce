@@ -704,6 +704,13 @@ video {
 
 /*  tiny */
 
+.body_tiny_400{
+  font-family: var(--public_sans);
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
 /*  XS */
 
 .absolute{
@@ -748,6 +755,14 @@ video {
 
 .top-2\/4{
   top: 50%;
+}
+
+.m-4{
+  margin: 1rem;
+}
+
+.m-2{
+  margin: 0.5rem;
 }
 
 .mb-1{
@@ -802,8 +817,24 @@ video {
   margin-bottom: 2rem;
 }
 
+.me-2{
+  margin-inline-end: 0.5rem;
+}
+
+.ms-4{
+  margin-inline-start: 1rem;
+}
+
+.mb-7{
+  margin-bottom: 1.75rem;
+}
+
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
 }
 
 .hidden{
@@ -812,6 +843,11 @@ video {
 
 .h-12{
   height: 3rem;
+}
+
+.h-fit{
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .w-1\/2{
@@ -834,8 +870,25 @@ video {
   width: 100%;
 }
 
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-auto{
+  width: auto;
+}
+
+.flex-1{
+  flex: 1 1 0%;
+}
+
 .shrink-0{
   flex-shrink: 0;
+}
+
+.flex-grow{
+  flex-grow: 1;
 }
 
 .-translate-y-2\/4{
@@ -849,6 +902,10 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.grid-cols-4{
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -877,6 +934,14 @@ video {
 
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-16{
+  gap: 4rem;
+}
+
+.gap-4{
+  gap: 1rem;
 }
 
 .gap-x-2{
@@ -1075,6 +1140,18 @@ video {
   padding-top: 2rem;
 }
 
+.pe-2{
+  padding-inline-end: 0.5rem;
+}
+
+.ps-4{
+  padding-inline-start: 1rem;
+}
+
+.pb-7{
+  padding-bottom: 1.75rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -1089,6 +1166,19 @@ video {
 
 .text-\[2rem\]{
   font-size: 2rem;
+}
+
+.text-\[1rem\]{
+  font-size: 1rem;
+}
+
+.text-\[12px\]{
+  font-size: 12px;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold{
@@ -1129,6 +1219,18 @@ video {
 
 .text-danger_600{
   color: var(--danger_600);
+}
+
+.text-grey_400{
+  color: var(--grey_400);
+}
+
+.text-primary_500{
+  color: var(--primary_500);
+}
+
+.text-grey_500{
+  color: var(--grey_500);
 }
 
 .placeholder-grey_500::-moz-placeholder{
@@ -1237,6 +1339,10 @@ video {
   border-color: var(--grey_900);
 }
 
+.hover\:border-primary_500:hover{
+  border-color: var(--primary_500);
+}
+
 .hover\:bg-grey_50:hover{
   background-color: var(--grey_50);
 }
@@ -1249,6 +1355,10 @@ video {
   background-color: var(--grey_900);
 }
 
+.hover\:font-bold:hover{
+  font-weight: 700;
+}
+
 .hover\:text-grey_00:hover{
   color: var(--grey_00);
 }
@@ -1259,4 +1369,8 @@ video {
 
 .hover\:text-grey_900:hover{
   color: var(--grey_900);
+}
+
+.hover\:text-primary_500:hover{
+  color: var(--primary_500);
 }
