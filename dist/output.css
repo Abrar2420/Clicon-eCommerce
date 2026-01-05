@@ -952,6 +952,10 @@ video {
        column-gap: 1.5rem;
 }
 
+.gap-y-4{
+  row-gap: 1rem;
+}
+
 .self-center{
   align-self: center;
 }
@@ -1052,6 +1056,10 @@ video {
 
 .p-4{
   padding: 1rem;
+}
+
+.p-3{
+  padding: 0.75rem;
 }
 
 .px-1\.5{
